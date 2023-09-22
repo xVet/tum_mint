@@ -3,6 +3,6 @@ NFT mint demo!
 
 # Requirements
 
-'pip install xrpl-py'
+`pip install xrpl-py`
 
 Thats it :)
