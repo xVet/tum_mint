@@ -1,4 +1,4 @@
-# tum_mint
+# TUM Conference
 NFT mint demo!
 
 # Requirements
