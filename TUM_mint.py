@@ -26,9 +26,10 @@ content = "HELLO"
 
 
 async def mint(ipfs):
-
+    # hex the content string
     hex_ipfs = str_to_hex(f"{ipfs}")
 
+    # connect to websocket of testnet
     async with AsyncWebsocketClient("wss://s.altnet.rippletest.net:51233") as client:
         ## create address and fund from faucet
         new_wallet = xrpl.wallet.generate_faucet_wallet(client, debug=True)
